@@ -1,0 +1,25 @@
+Babel
+  - Converte seu código para que todos navegadores consigam entender.
+
+WebPack
+  - Servidor de desenvolvimento para códigos em ecmascript, onde é possível o navegador atualizar automaticamente a aplicação quando adicadicionado novo código.
+  - Capaz de converter arquivo EC6 em uma sintaxe que os navegadores entendam.
+
+Classes
+  - 
+
+Arrow Functions
+  - Novo modelo de se criar funções anonimas dentro do cód.
+
+Desestruturação
+  - Forma de recuperar propriedades dentro de onjetos e arryas
+
+Rest / Spread
+  - Manipular as propriedades dentro de objetos e arryas: Duplicar conteúdo, repassar sem manter referência.
+
+Import / Export
+  - Funcionalidades de um arquivo js para outro
+
+Async / Await
+  - Fornece nova forma para se trabalhar com programaçao asíncrona em JavaScript, tornando-a mais simples e menos verbosa.
+

@@ -1,0 +1,9 @@
+class teste {
+  metodo() {
+
+  }
+
+  outro() {
+
+  }
+}
