@@ -23,3 +23,5 @@ Import / Export
 Async / Await
   - Fornece nova forma para se trabalhar com programaçao asíncrona em JavaScript, tornando-a mais simples e menos verbosa.
 
+Static
+  - Método stático serve para auxiliar na criação com o retorno de informações, independente das classes. Ele não precisa depender de nenhuma informação.
