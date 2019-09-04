@@ -86,15 +86,15 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./funcoes.js":
-/*!********************!*\
-  !*** ./funcoes.js ***!
-  \********************/
+/***/ "./functions.js":
+/*!**********************!*\
+  !*** ./functions.js ***!
+  \**********************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.soma = soma;\n\nfunction soma(a, b) {\n  return a + b;\n}\n\n//# sourceURL=webpack:///./funcoes.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.sum = sum;\nexports.sub = sub;\nexports.mult = mult;\n\nfunction sum(a, b) {\n  return a + b;\n}\n\nfunction sub(a, b) {\n  return a - b;\n}\n\nfunction mult(a, b) {\n  return a * b;\n}\n\n//# sourceURL=webpack:///./functions.js?");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _funcoes = __webpack_require__(/*! ./funcoes */ \"./funcoes.js\");\n\nconsole.log((0, _funcoes.soma)(10, 7));\n\n//# sourceURL=webpack:///./main.js?");
+eval("\n\nvar functions = _interopRequireWildcard(__webpack_require__(/*! ./functions */ \"./functions.js\"));\n\nfunction _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj[\"default\"] = obj; return newObj; } }\n\nconsole.log(functions.mult(3, 10));\nconsole.log(functions.sub(10, 3));\nconsole.log(functions.sum(17, 3));\n\n//# sourceURL=webpack:///./main.js?");
 
 /***/ })
 
