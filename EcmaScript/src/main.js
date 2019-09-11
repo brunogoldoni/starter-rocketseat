@@ -1,5 +1,5 @@
 class App {
-  contructor() {
+  constructor() {
     this.respositories = [];
 
     this.formEl = document.getElementById('repo-form');
@@ -8,7 +8,7 @@ class App {
   }
 
   registerHandlers() {
-    this.formEl.onsubmit = event => addRepository(event);
+    this.formEl.onsubmit = event => this.addRepository(event);
   }
 
   addRepository(event) {
