@@ -1,6 +1,6 @@
 class App {
   constructor() {
-    this.respositories = [];
+    this.repositories = [];
 
     this.formEl = document.getElementById('repo-form');
     this.listEl = document.getElementById('repo-list');
@@ -10,25 +10,25 @@ class App {
 
   registerHandlers() {
     this.formEl.onsubmit = event => this.addRepository(event);
+
   }
 
   addRepository(event) {
     event.preventDefault();
 
-    this.respositories.push({
-      name: 'rockeatseat.com.br',
-      description: 'Tire a sua ideia do papel e dê vida á sua startup.',
+    this.repositories.push({
+      name: 'Rocketseat.com.br',
+      description: 'Tire a sua ideia do papel e dê vida á sua startup',
       avatar_url: 'https://avatars0.githubusercontent.com/u/28929274?v=4',
-      html_url: 'http://github.com/rockeatseat/rockeatseat.com.br',
+      html_url: 'http://github.com/rocketseat/rocketseat.com.br',
     });
 
-    this.render();
+    this.render()
   }
-
   render() {
     this.listEl.innerHTML = '';
 
-    this.respositories.forEach(repo => {
+    this.repositories.forEach(repo => {
       let imgEl = document.createElement('img');
       imgEl.setAttribute('src', repo.avatar_url);
 
@@ -52,5 +52,4 @@ class App {
     });
   }
 }
-
 new App();
