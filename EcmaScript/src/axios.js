@@ -15,4 +15,3 @@ class Api {
 }
 
 Api.getUserInfo('Brunogoldoni');
-Api.getUserInfo('Brunogoldini');
